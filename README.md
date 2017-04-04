@@ -73,7 +73,7 @@ You can use one component inside another:
 ```clj
 (defn calling-component []
   [:div "Parent component"
-   [some-component]])
+   (some-component)])
 ```
 
 And pass properties from one component to another:
